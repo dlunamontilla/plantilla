@@ -20,8 +20,6 @@
 		$json = json_encode(mysqli_fetch_assoc($readRess));
 
 		while ($readRow = mysqli_fetch_array($readRess)) {
-			echo "<br>" . $readRow["titulo"];
-			
 			echo "<tr>
 					<td>".$readRow[0]."</td>
 					<td>".$readRow[1]."</td>
