@@ -1,8 +1,8 @@
 <?php 
 
 	$host = 'localhost';
-	$user = 'root';
-	$pass = '';
+	$user = 'david';
+	$pass = 'entorno2';
 	$ddbb = 'plantilla';
 	$conn = mysqli_connect($host,$user,$pass,$ddbb);
 	
